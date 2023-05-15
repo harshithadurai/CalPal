@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='icon.png') }}" />
+    <title>CalPal</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-content">
+            CalPal
+        </div>
+    </div>
+
+    {% if not rows %}
+
+    <div class="main-stuff">
+
+        <h3 id="form-title">Paste your schedule here</h3>
+
+        <form action="/" method="post">
+
+            <textarea class="input-area" rows="5" cols="60" name="info" placeholder="Enter text"></textarea>
+
+            <div class="generate-calendar">
+                <input type="submit" value="Generate Calendar" />
+            </div>
+
+        </form>
+    </div>
+    
+    {% endif %}
+
+    {% if rows %}
+    <div class="table-stuff">
+    <table>
+        <thead>
+            <tr>
+                <th>Event</th>
+                <th>Date/Time</th>
+                <th>Additional Info</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for i in rows %}
+            {% set row = rows[loop.index-1] %}
+            {% set irow = rows_ical[loop.index-1] %}
+            <tr>
+                {% for cell in row %}
+                {% if irow[1] != "X"%}
+                <td>{{ cell }}</td>
+                {% endif %}
+                {% endfor %}
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    </div>
+
+    <div class="download">
+        <a href="{{url_for('download')}}">Download Calendar</a>
+    </div>
+    
+
+    {% endif %}
+
+
+
+
+
+
+</body>
+
+</html>
