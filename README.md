@@ -4,7 +4,7 @@ CalPal utilizes the GPT-3 OpenAI API to create calendar events out of a schedule
 
 For instance, consider a schedule like this:
 
-<img width="1382" alt="Screenshot 2023-05-15 at 1 26 02 AM" src="https://github.com/harshithadurai/CalPal/assets/76853136/1a8ff90c-1404-4fb6-bab2-ab43d5a237d1">
+<img width="909" alt="Screenshot 2023-05-15 at 1 31 10 AM" src="https://github.com/harshithadurai/CalPal/assets/76853136/77afb448-f7ae-4b8b-bb7f-8fcc9dda2103">
 
 You can simply copy paste this onto the CalPal App:
 
