@@ -116,5 +116,5 @@ Original | Converted""".format(dates_string)
 
 @app.route('/download')
 def download():
-    path = 'this.ics'
+    path = 'calendar.ics'
     return send_file(path, as_attachment=True)
