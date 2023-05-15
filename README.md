@@ -4,15 +4,15 @@ CalPal utilizes the GPT-3 OpenAI API to create calendar events out of a schedule
 
 For instance, consider a schedule like this:
 
-<img width="909" alt="Screenshot 2023-05-15 at 1 31 10 AM" src="https://github.com/harshithadurai/CalPal/assets/76853136/77afb448-f7ae-4b8b-bb7f-8fcc9dda2103">
+<img width="790" alt="Screenshot 2023-05-15 at 1 54 06 AM" src="https://github.com/harshithadurai/CalPal/assets/76853136/ef6b9a82-f739-466f-9e59-e8c93ea9b8c7">
 
 You can simply copy and paste this onto the CalPal App:
 
-<img width="1437" alt="Screenshot 2023-05-14 at 11 46 18 PM" src="https://github.com/harshithadurai/CalPal/assets/76853136/321f785e-b3a1-4408-9a92-e587b7450007">
+<img width="1437" alt="Screenshot 2023-05-14 at 11 46 18 PM" src="https://github.com/harshithadurai/CalPal/assets/76853136/1c2e349d-5654-4a67-b9a6-3df02265d9ac">
 
 Now you can download the corresponding calendar events!
 
-<img width="1440" alt="Screenshot 2023-05-14 at 11 47 05 PM" src="https://github.com/harshithadurai/CalPal/assets/76853136/6fbaf8a9-ae9f-4487-96b2-81b73aa802a0">
+<img width="1440" alt="Screenshot 2023-05-14 at 11 47 05 PM" src="https://github.com/harshithadurai/CalPal/assets/76853136/7605d6ca-e415-451b-ab4a-e29373138427">
 
 The file is an iCal file with a .ics extension. To add to Google Calendar, this file can be directly 
 <a href="https://support.google.com/calendar/answer/37118?hl=en&co=GENIE.Platform%3DDesktop">imported</a> or the file can be opened on an Apple device to be directly added to the Apple calendar.
