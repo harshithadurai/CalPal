@@ -11,7 +11,7 @@ xxx
 3. Navigate into the project directory:
 
    ```bash
-   $ cd openai-quickstart-python
+   $ cd CalPal
    ```
 
 4. Create a new virtual environment:
