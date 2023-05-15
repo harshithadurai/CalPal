@@ -1,6 +1,21 @@
 # What is CalPal?
 
-xxx
+CalPal utilizes the GPT-3 OpenAI API to create calendar events out of a schedule.
+
+For instance, consider a schedule like this:
+
+<img width="1382" alt="Screenshot 2023-05-15 at 1 26 02 AM" src="https://github.com/harshithadurai/CalPal/assets/76853136/1a8ff90c-1404-4fb6-bab2-ab43d5a237d1">
+
+You can simply copy paste this onto the CalPal App:
+
+<img width="1437" alt="Screenshot 2023-05-14 at 11 46 18 PM" src="https://github.com/harshithadurai/CalPal/assets/76853136/321f785e-b3a1-4408-9a92-e587b7450007">
+
+And you can download the corresponding calendar events!
+
+<img width="1440" alt="Screenshot 2023-05-14 at 11 47 05 PM" src="https://github.com/harshithadurai/CalPal/assets/76853136/6fbaf8a9-ae9f-4487-96b2-81b73aa802a0">
+
+The file is an iCal file with a .ics extension. To add to Google Calendar, this file can be directly 
+<a href="https://support.google.com/calendar/answer/37118?hl=en&co=GENIE.Platform%3DDesktop">imported</a> or the file can be opened on an Apple device to be directly added to the Apple calendar.
 
 ## Setup
 
