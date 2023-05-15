@@ -19,6 +19,8 @@ The file is an iCal file with a .ics extension. To add to Google Calendar, this 
 
 ## Setup
 
+Note that in order to run this app, you would need an [API key from OopenAI](https://beta.openai.com/account/api-keys)
+
 1. If you don’t have Python installed, [install it from here](https://www.python.org/downloads/).
 
 2. Clone this repository.
